@@ -21,6 +21,8 @@ class IngestData:
 @step
 def ingest_data() -> pd.DataFrame:
     """
+    Injesting the data from data_path
+    
     Args:
         None
     Returns:
